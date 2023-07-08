@@ -1,0 +1,64 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "modo avançado",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AskOpenAIIntent",
+                    "slots": [
+                        {
+                            "name": "question",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "crie {question}",
+                        "diga {question}",
+                        "faça {question}",
+                        "repita {question}",
+                        "resultado {question}",
+                        "resultados {question}",
+                        "conclusão {question}",
+                        "implicações {question}",
+                        "conclusões {question}",                        
+                        "o {question}",
+                        "se {question}",
+                        "si {question}",
+                        "a {question}",
+                        "quando {question}",
+                        "quanto {question}",
+                        "quantos {question}",
+                        "como {question}",
+                        "qual {question}",                       
+                        "o que {question}",                        
+                        "por que {question}",
+                        "você sabe {question}",
+                        "sabe {question}",
+                        "pergunta {question}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
