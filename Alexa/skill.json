@@ -1,0 +1,49 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:099258972584:function:0234e516-d86c-495f-9af2-ebbe2a3a994d:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:099258972584:function:0234e516-d86c-495f-9af2-ebbe2a3a994d:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:099258972584:function:0234e516-d86c-495f-9af2-ebbe2a3a994d:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:099258972584:function:0234e516-d86c-495f-9af2-ebbe2a3a994d:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "pt-BR": {
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa abra olá mundo",
+            "olá",
+            "ajuda"
+          ],
+          "keywords": [],
+          "name": "GPT",
+          "summary": "Sample Short Description"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
